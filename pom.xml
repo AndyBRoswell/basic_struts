@@ -3,15 +3,29 @@
 	A Project Object Model or POM is the fundamental unit of work in Maven.
 	It is an XML file that contains information about the project and configuration details used by Maven to build the project.
 -->
+
+<!-- The "project" root is required. -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- Should be set to 4.0.0 to match the minimum requirements. -->
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--  -->
+	<!-- The ID of the project's group. -->
 	<groupId>groupId</groupId>
+	<!-- The ID of the artifact (project). -->
+<!--
+	An artifact is one of many kinds of tangible by-products produced during the development of software.
+	Some artifacts (use cases, class diagrams, Unified Modeling Language (UML) models, requirements design documents, ...) help describe the function, architecture, and design of software.
+	Other artifacts are concerned with the process of development itself—such as project plans, business cases, and risk assessments.
+
+	Build tools often refer to source code compiled for testing as an artifact, because the executable is necessary to carrying out the testing plan.
+	Without the executable to test, the testing plan artifact is limited to non-execution based testing.
+-->
 	<artifactId>basic_struts</artifactId>
+	<!-- The version of the artifact under the specified group. -->
 	<version>1.0-SNAPSHOT</version>
+	<!-- A POM requires that its groupId, artifactId, and version be configured. These 3 values form the project's fully qualified artifact name, in the form of <groupId>:<artifactId>:<version>. -->
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
