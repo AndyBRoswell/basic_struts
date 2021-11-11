@@ -27,6 +27,10 @@
 	<version>1.0-SNAPSHOT</version>
 	<!-- A POM requires that its groupId, artifactId, and version be configured. These 3 values form the project's fully qualified artifact name, in the form of <groupId>:<artifactId>:<version>. -->
 
+<!--
+	Any field of the model that is a single value element can be referenced as a variable.
+	You are also able to reference any properties defined in the project as a variable.
+-->
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
@@ -34,6 +38,11 @@
 		<log4j2.version>2.14.1</log4j2.version>
 	</properties>
 
+<!--
+	The cornerstone of the POM is its dependency list. Most projects depend on others to build and run correctly.
+	Maven downloads and links the dependencies on compilation, as well as on other goals that require them.
+	As an added bonus, Maven brings in the dependencies of those dependencies (transitive dependencies), allowing your list to focus solely on the dependencies your project requires.
+-->
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.struts</groupId>
