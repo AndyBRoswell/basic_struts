@@ -51,6 +51,8 @@ java.lang.NoClassDefFoundError: javax/servlet/Filter
 
 If you want to uninstall a particular version of Tomcat and install another version, then you should uninstall it with the methods of uninstalling softwares recommended by your OS. E.g., "Apps & Features" in Windows 10.
 
+If you receive an error when trying to run this project, indicating the port 8080 is in use, you can end the process of running Tomcat instances (i.e. with Taskmgr on Windows), run Tomcat9w.exe in the installation path of Tomcat 9 and configure the "Startup type" to "Manual".
+
 # How to Create a Struts 2 Web Application
 
 ## Prerequisites
@@ -89,7 +91,19 @@ The upper one doesn't exist in Struts 2.5.x. As from Struts 2.5 all filters were
 
 ## Edit Configurations for Debugging and Running
 
+On the right-top corner of the IDE, enter "Edit Configurations...".
 
+Create a new config, select the proper version of Tomcat (in this example, 9.0.55). 
+
+Choose any one browser you want to launch for this project.
+
+The URL should match the official guide:
+
+> http://localhost:8080/basic-struts/index.jsp
+
+In the "Deployment" tab, select an artifact following the prompts of the IDE.
+
+Then, build and run this application.
 
 # Hello World Using Struts 2
 
