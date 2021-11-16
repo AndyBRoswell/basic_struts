@@ -62,12 +62,22 @@
 	</dependencies>
 
 	<build>
+<!--
+	This is the name of the bundled project when it is finally built (sans the file extension, for example: my-project-1.0.jar). It defaults to ${artifactId}-${version}.
+	The term "finalName" is kind of a misnomer, however, as plugins that build the bundled project have every right to ignore/modify this name (but they usually do not).
+-->
 		<finalName>basic-struts</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.4.22.v20191022</version>
+<!--
+	This is specific to the individual plugin.
+	Without going too in depth into the mechanics of how plugins work, suffice it to say that whatever properties that the plugin Mojo may expect (these are getters and setters in the Java Mojo bean) can be specified here.
+	It may be good to note that all configuration elements, wherever they are within the POM, are intended to pass values to another underlying system, such as a plugin.
+	In other words: values within a configuration element are never explicitly required by the POM schema, but a plugin goal has every right to require configuration values.
+-->
 				<configuration>
 					<webApp>
 						<contextPath>/${build.finalName}</contextPath>
