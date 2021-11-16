@@ -2,7 +2,7 @@
 
 Last Modified: 2021-11-16
 
-This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.54 and Maven.
+This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.55 and Maven.
 
 ## Notes
 
@@ -21,6 +21,8 @@ The official document of Struts 2 says
 > The framework documentation is written for active web developers and assumes a working knowledge about how Java web applications are built.
 
 It is needed to indicate that this README decrease the requirement on the knowledge of how Java web apps are built.
+
+The chapters of this README is organized according to the official guide of Struts 2. The major contents of each chapter are the supplements required to successfully build this demo application.
 
 ## Dependencies
 
@@ -48,4 +50,10 @@ java.lang.NoClassDefFoundError: javax/servlet/Filter
 ```
 
 If you want to uninstall a particular version of Tomcat and install another version, then you should uninstall it with the methods of uninstalling softwares recommended by your OS. E.g., "Apps & Features" in Windows 10.
+
+# How to Create a Struts 2 Web Application
+
+
+
+# Hello World Using Struts 2
 
