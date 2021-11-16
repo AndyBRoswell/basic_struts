@@ -73,6 +73,22 @@ Maven depends the pom.xml to correctly manage the dependencies demanded. Though 
 
 ## Eliminating the Errors Reported by the IDE
 
+In the "web.xml", replace the line
+
+```xml
+<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+```
+
+to
+
+```xml
+<filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
+```
+
+The upper one doesn't exist in Struts 2.5.x. As from Struts 2.5 all filters were moved to top package.
+
+## Edit Configurations for Debugging and Running
+
 
 
 # Hello World Using Struts 2
