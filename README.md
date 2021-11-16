@@ -4,9 +4,9 @@ Last Modified: 2021-11-16
 
 This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.55 and Maven.
 
-## Notes
+## Warnings
 
-Now Java Web framework Struts 2 is NOT frequently used. It is certainly not recommend to create new Struts 2 projects unless you're required to maintain old projects or merely cope with exams.
+Now Java Web framework Struts 2 is **NOT** frequently used. It is certainly not recommend to create new Struts 2 projects unless you're required to maintain old projects or merely cope with exams.
 
 ## Essential statements
 
@@ -25,6 +25,8 @@ It is needed to indicate that this README decrease the requirement on the knowle
 The chapters of this README is organized according to the official guide of Struts 2. The major contents of each chapter are the supplements required to successfully build this demo application.
 
 ## Dependencies
+
+We know that most of us tend to download the latest version of the components we need to use. Therefore, I will make my best effort to keep the versions of the dependencies appear in this tutorial newest.
 
 - Java 17 LTS
 - Maven integrated in IntelliJ IDEA (3.6.6 when 2021-11)
