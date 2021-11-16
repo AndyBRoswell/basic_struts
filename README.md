@@ -1,5 +1,7 @@
 # basic_struts
 
+Last Modified: 2021-11-16
+
 This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.54 and Maven.
 
 ## Notes
@@ -31,4 +33,4 @@ are replaced by
 import jakarta.*
 ```
 
-because Tomcat 10 uses Servlet API 5.0 (released in 2020-09-07), part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created.
+Because Tomcat 10 uses Servlet API 5.0 (released in 2020-09-07), part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created.
