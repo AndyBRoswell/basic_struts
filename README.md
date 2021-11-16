@@ -31,4 +31,4 @@ are replaced by
 import jakarta.*
 ```
 
-because Tomcat 10 uses Servlet 5.0 API, part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created.
+because Tomcat 10 uses Servlet API 5.0 (released in 2020-09-07), part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created.
