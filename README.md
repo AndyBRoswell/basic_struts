@@ -53,6 +53,26 @@ If you want to uninstall a particular version of Tomcat and install another vers
 
 # How to Create a Struts 2 Web Application
 
+## Prerequisites
+
+IntelliJ IDEA Ultimate provides supports of Java EE / Jakarta EE. If you are a student or a faculty member from universities and research institutes, you are allowed to apply for an edu mail. Use this email to obtain free access to all JetBrains softwares and plugins of non-community versions.
+
+## Create an IntelliJ IDEA Project for this Struts 2 Demo
+
+To follow the official guide, select "maven" at the left side of the "New Project" window. Check "Create from archetype" and choose "org.apache.struts:struts2-archetype-starter".
+
+Then, name your project, specify the project location and set the GroupId you want to have.
+
+Then, finally, click "Finish".
+
+## After the Creation
+
+Follow the official guide. If the IDE prompts that newer versions of dependencies can be used, you may update them by operating in the IDE.
+
+Maven depends the pom.xml to correctly manage the dependencies demanded. Though the IDE has generated a pom.xml file, it is not close to perfect. You can attempt to modify it. For example, use properties (variables) more frequently. See [POM Reference](https://maven.apache.org/pom.html).
+
+## Eliminating the Errors Reported by the IDE
+
 
 
 # Hello World Using Struts 2
