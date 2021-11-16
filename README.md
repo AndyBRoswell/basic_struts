@@ -8,6 +8,8 @@ This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.55 and Maven.
 
 Now Java Web framework Struts 2 is **NOT** frequently used. It is certainly not recommend to create new Struts 2 projects unless you're required to maintain old projects or merely cope with exams.
 
+However, that is not to say that learning these frameworks is entirely meaningless. The fundamental ideas behind these frameworks can be referred in our future studies. But we really don't need to learn them in depth. The degree of popularity of every framework alters swiftly. What is the most significant is that we must master the capability to learn to use a new framework within a short period of time.
+
 ## Essential statements
 
 This repo is constructed in accordance of the official guide [Getting Started](https://struts.apache.org/getting-started/) and you should use IntelliJ IDEA to make use of the repo.
@@ -99,7 +101,7 @@ Create a new config, select the proper version of Tomcat (in this example, 9.0.5
 
 Choose any one browser you want to launch for this project.
 
-The URL should match the official guide:
+In the open window, the URL should match the official guide:
 
 > http://localhost:8080/basic-struts/index.jsp
 
