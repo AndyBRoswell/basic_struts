@@ -8,7 +8,7 @@ This Repository Is a Simple Demo of Struts 2.5.26 with Tomcat 9.0.55 and Maven.
 
 Now Java Web framework Struts 2 is **NOT** frequently used. It is certainly not recommend to create new Struts 2 projects unless you're required to maintain old projects or merely cope with exams.
 
-However, that is not to say learning these frameworks is entirely meaningless. The fundamental ideas behind these frameworks can be referred in our future studies. But we really don't need to learn them in depth. The degree of popularity of every framework alters swiftly. What is the most significant is that we must master the capability to learn to use a new framework within a short period of time.
+However, that is not to say learning these frameworks is entirely meaningless. The fundamental ideas behind these frameworks can be referred in our future studies. But we really don't need to learn them in depth. The degree of popularity of every framework alters swiftly. What is the most significant is that we **MUST** master the capability to learn to use a new framework within a short period of time.
 
 ## Essential statements
 
