@@ -8,3 +8,14 @@ Now Java Web framework Struts 2 is NOT frequently used. It is certainly not reco
 
 ## Essential statements
 
+This repo is constructed in accordance of the official guide [Getting Started](https://struts.apache.org/getting-started/) and you should use IntelliJ IDEA to make use of the repo.
+
+This README file is an auxiliary doc of the official guide, aiming at having you create a simple Struts 2 project and learn the fundamentals of Struts 2, avoiding twists and turns.
+
+## Dependencies
+
+- Java 17 LTS
+- Maven integrated in IntelliJ IDEA (3.6.6 when 2021-11)
+- Struts 2.5.26 (stable release on 2020-12-06)
+- Tomcat 9.0.54
+    - IMPORTANT: 
