@@ -41,7 +41,11 @@ are replaced by
 import jakarta.*
 ```
 
-Because Tomcat 10 uses Servlet API 5.0 (released in 2020-09-07), part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created.
+Because Tomcat 10 uses Servlet API 5.0 (released in 2020-09-07), part of Jakarta EE 9. Hence, the highest version of Tomcat you can use is 9.0.55 up to when this README was created. Using Tomcat 10 or later will cause the exceptions like
+
+```java
+java.lang.NoClassDefFoundError: javax/servlet/Filter
+```
 
 If you want to uninstall a particular version of Tomcat and install another version, then you should uninstall it with the methods of uninstalling softwares recommended by your OS. E.g., "Apps & Features" in Windows 10.
 
