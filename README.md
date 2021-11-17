@@ -71,6 +71,10 @@ Then, name your project, specify the project location and set the GroupId you wa
 
 Then, finally, click "Finish".
 
+## Alternative
+
+If the project is built using the upper method but can't be launched, 
+
 ## After the Creation
 
 Follow the official guide. If the IDE prompts that newer versions of dependencies can be used, you may update them by operating in the IDE.
