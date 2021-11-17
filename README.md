@@ -65,15 +65,24 @@ IntelliJ IDEA Ultimate provides supports of Java EE / Jakarta EE. If you are a s
 
 ## Create an IntelliJ IDEA Project for this Struts 2 Demo
 
-To follow the official guide, select "maven" at the left side of the "New Project" window. Check "Create from archetype" and choose "org.apache.struts:struts2-archetype-starter".
+To follow the official guide,
+- Select "Maven" at the left side of the "New Project" window.
+- Check "Create from archetype" and choose "org.apache.struts:struts2-archetype-starter".
+- Name your project, specify the project location and set the GroupId you want to have.
+- Finally, click "Finish".
 
-Then, name your project, specify the project location and set the GroupId you want to have.
+## (Alternative)
 
-Then, finally, click "Finish".
+If the project is built using the upper method but can't be launched, try this alternative:
 
-## Alternative
-
-If the project is built using the upper method but can't be launched, 
+- Select "Java EE (Legacy)" at the left side instead of "Maven" in the "New Project" window.
+- Select "Java EE 8" as the Java EE version (the latest one before Jakarta EE 9).
+- Choose a Tomcat version before Tomcat 10.
+- Check the "Struts 2" checkbox in the "Additional Libraries and Frameworks".
+- Use downloaded Struts 2 libraries, or manually specify the location of the libraries of Struts 2.
+- Name your project and specify the project location.
+- Click "Finish".
+- 
 
 ## After the Creation
 
