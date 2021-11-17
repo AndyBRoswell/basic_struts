@@ -82,7 +82,7 @@ If the project is built using the upper method but can't be launched, try this a
 - Use downloaded Struts 2 libraries, or manually specify the location of the libraries of Struts 2.
 - Name your project and specify the project location.
 - Click "Finish".
-- 
+- Then, IntelliJ IDEA will load the project. At the "Project" sidebar close to the top left corner, 
 
 ## After the Creation
 
@@ -108,7 +108,7 @@ The upper one doesn't exist in Struts 2.5.x. As from Struts 2.5 all filters were
 
 ## Edit Configurations for Debugging and Running
 
-On the right-top corner of the IDE, enter "Edit Configurations...".
+On the top right corner of the IDE, enter "Edit Configurations...".
 
 Create a new config, select the proper version of Tomcat (in this example, 9.0.55). 
 
