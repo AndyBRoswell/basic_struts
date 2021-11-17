@@ -82,7 +82,8 @@ If the project is built using the upper method but can't be launched, try this a
 - Use downloaded Struts 2 libraries, or manually specify the location of the libraries of Struts 2.
 - Name your project and specify the project location.
 - Click "Finish".
-- Then, IntelliJ IDEA will load the project. At the "Project" sidebar close to the top left corner, 
+- Then, IntelliJ IDEA will load the project. At the "Project" sidebar close to the top left corner, right click the root element (i.e. the entire project) and click the "Add Framework Support..." of the popup menu.
+- Select "Maven" and click OK.
 
 ## After the Creation
 
